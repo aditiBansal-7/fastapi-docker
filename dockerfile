@@ -19,7 +19,6 @@ EXPOSE 8000
 
 # Command to run the FastAPI server
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
-=======
 # Use Ubuntu as the base image
 FROM ubuntu:latest
 
@@ -40,4 +39,3 @@ EXPOSE 8000
 
 # Command to run the FastAPI server
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
->>>>>>> 7124dc833f6cbc611237e5c81be200facdc8e68e
